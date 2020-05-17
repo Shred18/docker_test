@@ -20,5 +20,5 @@ RUN pip install --upgrade pip
 RUN pip install selenium
 
 
-#EXPOSE 4500
+EXPOSE 4500
 ENTRYPOINT python3 main-script.py
